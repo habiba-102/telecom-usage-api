@@ -1,0 +1,21 @@
+{
+  "name": "telecom-usage-api",
+  "version": "1.0.0",
+  "description": "REST API for telecom plans, customers, subscriptions and usage tracking (Express + MongoDB + Mongoose)",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["express", "mongodb", "mongoose", "rest-api", "telecom"],
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
